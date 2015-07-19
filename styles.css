@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  background-color: #FFFADA;
+  color: #333;
+}
+
+.content {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+
+/* HEADING */
+
+header {
+  width: 100%;
+}
+
+.header-content {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.udacity-logo {
+  display: inline-block;
+  vertical-align: middle;
+  max-height: 100%;
+  width: 40px;
+  margin-top: -10px;
+}
+
+h1 {
+  display: inline-block;
+  margin: 0;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+p {
+  margin: 0;
+}
+
+
+/* MAIN SECTIONS */
+
+.hero {
+  margin-bottom: 20px;
+  padding: 30px 0;
+  max-width: 100%;
+  background-color: #8E2800;
+  color: white;
+  text-align: center;
+  color: #FFFADA;
+  text-transform: uppercase;
+}
+
+.my-picture {
+  display: block;
+  margin: 0 auto 30px;
+  width: 100%;
+  max-width: 200px;
+  border: 2px solid #FFFADA;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.my-name {
+  font-weight: 300;
+  font-size: 26px;
+  letter-spacing: .05em;
+}
+
+.my-location {
+  font-size: 13px;
+  color: #FFB03B;
+}
+
+dl {
+  margin: 0 20px;
+  padding: 1.5em;
+  line-height: 1.3;
+  background-color: #FFFCE8;
+  border: 1px solid #f7e3c5;
+}
+
+dt {
+  text-transform: uppercase;
+  color: #8E2800;
+}
+
+.content dd {
+  margin: 0 0 1em 0;
+}
+
+.content dd:last-child {
+  margin-bottom: 0;
+}
